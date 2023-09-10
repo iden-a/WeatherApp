@@ -13,6 +13,7 @@ def getWeather():
     city = textField.get
     api = ""
     json_data = requests.get(api).json
+    condition = ""
     # need to receive additional data about weather conditions from the api
 
 root = Tk()
